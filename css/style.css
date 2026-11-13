@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(185, 185, 185);
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* -----------1--------- */
+#taskInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#taskBtn {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+}
+
+/* -----2---- */
+#bulb {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+#bulbBtn {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/* ------3------- */
+#regForm {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+#regForm input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#regForm button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#regMessage {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* ---------bonus------------ */
+#mover {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    margin-left: 0;
+}
